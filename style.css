@@ -144,3 +144,20 @@ form{
     background: url("https://wallpaper.dog/large/20463437.jpg") center center/cover;
  }
 
+ .coffeeimg{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+ .coffeeimg img{
+    border: solid 10px rgb(249, 176, 188);
+    height: 700px;
+ }
+
+ .carousel-inner img{
+    height: 900px;
+    width: 200px;
+ }
+
