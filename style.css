@@ -1,16 +1,16 @@
-.navcolor{
+.navcolor {
     background-color: pink;
 }
 
-.logo{
+.logo {
     height: 100px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 20px !important;
 }
 
-.imgdiv{
+.imgdiv {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -18,25 +18,31 @@
     flex-wrap: wrap;
 }
 
-.imgdiv img{
+.imgdiv img {
     height: 300px;
     width: 300px;
 }
 
-.introdiv{
+.introdiv {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size:20px ;
+    font-size: 20px;
     padding-top: 30px;
     padding-bottom: 50px;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+
+.menu img{
+width: 1000px;
+height: auto;
+
 }
 
 
@@ -46,35 +52,35 @@
     align-items: center;
     background-color: pink;
     padding: 1rem;
-  }
-  
-  .company_part img {
+}
+
+.company_part img {
     width: 150px;
-  }
-  
-  .link_part a {
+}
+
+.link_part a {
     text-decoration: none;
-    color: rgb(227, 97, 147);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     line-height: 2;
-  }
-  
-  .link_part a:hover {
-    color: rgb(194, 52, 80);
-  }
-  
-  .link_part h3 {
-    color: rgb(214, 91, 116);
-  }
+}
+
+.link_part a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.link_part h3 {
+    color: rgb(0, 0, 0);
+}
 
 
-  *{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-form{
+form {
     width: 50%;
     margin: auto;
     display: flex;
@@ -84,22 +90,23 @@ form{
 
 }
 
-.form_item{
+.form_item {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.form_item input{
+.form_item input {
     font-size: 20px;
     padding: 0.5rem;
 }
 
-.form_item label{
+.form_item label {
     font-size: 20px;
     font-weight: 500;
 }
-.form_item button{
+
+.form_item button {
     border: none;
     padding: 0.7rem 1.5rem;
     color: rgb(252, 115, 138);
@@ -109,55 +116,162 @@ form{
 
 }
 
-.homeimgs{
+.homeimgs {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
- .homeimgs img{
+
+.homeimgs img {
     border: solid 10px rgb(249, 176, 188);
     height: 300px;
- }
+}
 
- .breadimg{
+.breadimg {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
- .breadimg img{
+
+.breadimg img {
     border: solid 10px rgb(249, 176, 188);
     height: 600px;
- }
- .videos{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    padding-bottom: 20px;
- }
+}
 
- .formbackground{
-    background: url("https://wallpaper.dog/large/20463437.jpg") center center/cover;
- }
-
- .coffeeimg{
+.videos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
- .coffeeimg img{
+
+.formbackground {
+    background: url("https://wallpaper.dog/large/20463437.jpg") center center/cover;
+}
+
+.coffeeimg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.coffeeimg img {
     border: solid 10px rgb(249, 176, 188);
     height: 700px;
- }
+}
 
- .carousel-inner img{
-    height: 900px;
-    width: 200px;
- }
+.carousel-inner img {
+    height: 700px;
+}
 
+.carousel-inner {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+    height: 400px;
+}
+
+.homesection {
+    background: url("https://w0.peakpx.com/wallpaper/361/691/HD-wallpaper-cute-strawberrys-flower-flowers-lollipop-moons-pink-star-strawberries-strawberry-wings.jpg") center center/cover;
+}
+
+.branches h3 {
+    text-align: center;
+}
+
+.map {
+    height: 800px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.branchessection {
+    background: url("https://wallpaper.dog/large/530629.jpg") center center/cover;
+}
+
+.careerfbg {
+    background: url("https://wallpapers.com/images/hd/kawaii-hd-sumikko-gurashi-characters-4e5yk1uhrjat7ty9.jpg") center center/cover;
+}
+
+.cardabtgroup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.abth {
+    text-align: center;
+}
+
+.cardabt {
+    width: 350px !important;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.cardabt img{
+    width: 100%;
+    height: 200px;
+}
+
+.abtsection {
+    background: url("https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg") center center/cover;
+}
+
+.bread h3{
+    text-align: center;
+    padding: 1rem;
+}
+.bread h2{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+}
+.coffee h4{
+    text-align: center;
+    padding: 1rem;
+}
+
+.servicesection {
+    background: url("https://i.etsystatic.com/8591869/r/il/51005a/3152913932/il_570xN.3152913932_3upg.jpg") center center/cover;
+}
+.productsection {
+    background: url("https://garden.spoonflower.com/c/12504234/p/f/m/MzqpIMgKmtKdgsBdceWPClB54qMAquBbC5Ppi3VsQBR6m3nFxc0j1_E/Pastel%20pink%20Solid%20-%20cotton%20candy%2C%20baby%20pink%2C%20light%20pink%20solid%20.jpg") center center/cover;
+}
+
+.orderh{
+    text-align: center;
+    padding: 10px;
+}
+
+.desc{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+text-align: center;
+}
+
+.desc h3{
+font-size: 2.5rem;
+}
